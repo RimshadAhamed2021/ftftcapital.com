@@ -1901,12 +1901,16 @@ canvas {
 
 }
 .abt-bg {
-    background: url("../../assets/images/backgrounds/slider-7.png");
+ /*   background: url("../../assets/images/backgrounds/slider-7.png");*/
     background-size: cover;
 
 }
 .pt-120 {
     padding-top: 120px;
+}
+
+.pb-120{
+    padding-bottom: 120px;
 }
 .about-one__left {
     position: relative;
@@ -6777,4 +6781,73 @@ canvas {
     background: #00a9bd;
     color: white !important;
     width: fit-content;
+}
+.career-detail{
+border-bottom: 1px solid rgba(0, 169, 189, 0.2);
+    font-weight: 400;
+    padding-top: 30px;
+}
+.career-detail .pos{
+    color: #00a9bd;
+}
+.career-detail .desc{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+}
+.career-detail .desc-break{
+    white-space: pre-line;
+}
+
+
+
+
+.uploader {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+}
+input[type="file"] {
+    display: none;
+}
+
+.file-upload-btn{
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 40px;
+    border: 2px dashed rgba(0, 169, 189, 0.42);
+}
+.file-upload-btn .upl-txt{
+    line-height: 30px;
+}
+.file-upload-btn:hover{
+    border: 2px dashed rgba(0, 169, 189, 0.7);
+}
+
+
+
+.wt-section{
+   /* background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 100%);*/
+    background: url("../../assets/images/backgrounds/bg-white.png");
+    background-size: cover;
+    color: black;
+}
+.wt-section .section-title__title{
+    color: black;
+}
+.wt-section .scr-text-left h2{
+    color: black;
+}
+.wt-frost{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.2) 100%);
+    backdrop-filter: blur(30px);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.wt-frost h2{
+    color: black;
 }
